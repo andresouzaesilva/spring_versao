@@ -1,0 +1,6 @@
+ports:
+  - port: 8080
+tasks:
+  - init: mysql < script_banco.sql
+image: gitpod/workspace-mysql
+  
